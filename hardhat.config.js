@@ -10,9 +10,9 @@ module.exports = {
     mumbai: {
       url: process.env.TESTNET_RPC,
       accounts: [process.env.PRIVATE_KEY]
-    },
-    etherscan: {
-      apiKey: process.env.POLYGONSCAN_API_KEY
     }
   },
+  etherscan: {
+    apiKey: process.env.POLYGONSCAN_API_KEY
+  }
 };
